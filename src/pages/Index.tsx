@@ -4,12 +4,12 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">VINYL*DINER</div>
+        <div className="logo">FRIENDLY*B&G</div>
         <nav>
+          <a href="#">Бранч</a>
           <a href="#">Меню</a>
           <a href="#">О нас</a>
-          <a href="#">Афиша</a>
-          <a href="#">Адреса</a>
+          <a href="#">Адрес</a>
         </nav>
         <button className="btn-cta">Забронировать</button>
       </header>
@@ -18,16 +18,16 @@ export default function Index() {
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
-              БЕЗ ПОНТОВ,
+              БРАНЧ —
               <br />
-              ТОЛЬКО <span>ВКУС</span>
+              ЭТО <span>культ</span>
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
-              Эстетика 70-х в современной подаче. Локальные продукты, огненные блюда и атмосфера для настоящих ценителей.
+              Friendly Bar&Grill. Каждый день с 12:00 до 15:00 — еда, которая заряжает на весь день. Без дресс-кода, без занудства.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
-                Заказать
+                Забронировать стол
               </button>
               <button className="btn-cta" style={{ background: "white" }}>
                 Смотреть меню
@@ -36,29 +36,29 @@ export default function Index() {
           </div>
           <div className="hero-img">
             <div className="sticker">
-              СВЕЖАК
+              БРАНЧ
               <br />
-              КАЖДЫЙ ДЕНЬ
+              12:00–15:00
             </div>
             <div className="floating-tag hidden md:block" style={{ top: "20%", left: "10%" }}>
-              #ЭСТЕТИКА
+              #FRIENDLYVIBES
             </div>
             <div className="floating-tag hidden md:block" style={{ bottom: "30%", right: "20%" }}>
-              ОГОНЬ
+              ЕДА И ЛЮДИ
             </div>
           </div>
         </section>
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; * БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ *
-            БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ
+            &nbsp; * БРАНЧ КАЖДЫЙ ДЕНЬ * 12:00 ДО 15:00 * ЯЙЦА БЕНЕДИКТ * ПАНКЕЙКИ * ГРИЛЛ * СМУЗИ И КОФЕ * FRIENDLY BAR&GRILL *
+            БРАНЧ КАЖДЫЙ ДЕНЬ * 12:00 ДО 15:00 * ЯЙЦА БЕНЕДИКТ * ПАНКЕЙКИ * ГРИЛЛ * СМУЗИ И КОФЕ * FRIENDLY BAR&GRILL
           </div>
         </div>
 
         <section className="section-padding">
           <div className="section-header">
-            <h2 className="section-title">ВЫБОР ШЕФА</h2>
+            <h2 className="section-title">БРАНЧ МЕНЮ</h2>
             <a
               href="#"
               className="text-sm md:text-base"
@@ -71,10 +71,10 @@ export default function Index() {
           <div className="menu-grid">
             {/* Item 1 */}
             <div className="menu-card">
-              <span className="menu-tag">Хит продаж</span>
+              <span className="menu-tag">Хит бранча</span>
               <img
-                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Классический бургер"
+                src="https://images.unsplash.com/photo-1608039829572-78524f79c4c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Яйца Бенедикт"
               />
               <div className="menu-card-body">
                 <div
@@ -85,11 +85,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Классика</h3>
-                  <span className="price">1 400 ₽</span>
+                  <h3>Яйца Бенедикт</h3>
+                  <span className="price">890 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Тройной смэш из мраморной говядины, фирменный соус, маринованные огурцы на бриоши.
+                  Хрустящий тост, слабосолёный лосось, пашот и голландский соус. Классика, которую не надоедает.
                 </p>
               </div>
             </div>
@@ -97,11 +97,11 @@ export default function Index() {
             {/* Item 2 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--secondary)" }}>
-                Острое
+                Для сладкоежек
               </span>
               <img
-                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Неоновая пицца"
+                src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Стек панкейков"
               />
               <div className="menu-card-body">
                 <div
@@ -112,21 +112,21 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Электро Пепперони</h3>
-                  <span className="price">1 800 ₽</span>
+                  <h3>Панкейки Friendly</h3>
+                  <span className="price">690 ₽</span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>Двойная пепперони, острый мёд, тесто на закваске.</p>
+                <p style={{ fontSize: "14px", color: "#666" }}>Стек из трёх панкейков с кленовым сиропом, ягодами и маслом.</p>
               </div>
             </div>
 
             {/* Item 3 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--accent)", color: "var(--dark)" }}>
-                Популярное
+                Заряд дня
               </span>
               <img
-                src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Диско Сауэр"
+                src="https://images.unsplash.com/photo-1610970881699-44a5587cabec?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Смузи боул"
               />
               <div className="menu-card-body">
                 <div
@@ -137,11 +137,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Диско Сауэр</h3>
-                  <span className="price">1 200 ₽</span>
+                  <h3>Смузи Боул</h3>
+                  <span className="price">550 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Джин, цветок бузины, голубой чай и съедобная золотая пыльца.
+                  Манго, банан, гранола, чиа и свежие ягоды. Влетает в ленту и в желудок одновременно.
                 </p>
               </div>
             </div>
@@ -150,10 +150,9 @@ export default function Index() {
 
         <section className="retro-vibe">
           <div>
-            <h2 className="vibe-title">ВАЙБ-ЧЕК ПРОЙДЕН.</h2>
+            <h2 className="vibe-title">МЕСТО, ГДЕ ХОЧЕТСЯ ОСТАТЬСЯ.</h2>
             <p className="vibe-text">
-              Мы не просто кормим. Мы создаём моменты. От плейлиста хип-хопа 90-х до диванов в стиле 70-х — каждый уголок
-              продуман для твоего идеального кадра. Бронь не нужна, просто приходи с настроением.
+              Friendly Bar&Grill — это не просто кафе. Это точка сбора тех, кто любит вкусно поесть и хорошо провести время. Ретро-вайб, живая атмосфера и бранч, после которого день идёт как надо. Приходи один или с компанией — здесь всегда рады.
             </p>
             <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
               Наша история
@@ -164,7 +163,7 @@ export default function Index() {
 
         <section className="section-padding">
           <h2 className="section-title" style={{ marginBottom: "40px", textAlign: "center" }}>
-            @VINYL.DINER
+            @FRIENDLY.BARGRILL
           </h2>
           <div className="social-grid">
             <div className="social-item">
@@ -175,7 +174,7 @@ export default function Index() {
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
                 alt="Инста 2"
               />
             </div>
@@ -197,9 +196,9 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">VINYL*DINER</div>
+          <div className="footer-logo">FRIENDLY*B&G</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
-            Твоё место для еды высокого качества и лоу-фай атмосферы. С 2024, но ощущается как 1974.
+            Кафе для тех, кто умеет наслаждаться жизнью. Бранч каждый день с 12:00 до 15:00.
           </p>
         </div>
         <div className="footer-links">
@@ -207,7 +206,7 @@ export default function Index() {
           <ul>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Меню
+                Бранч меню
               </a>
             </li>
             <li>
@@ -222,24 +221,22 @@ export default function Index() {
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Условия
+                Контакты
               </a>
             </li>
           </ul>
         </div>
-        <div className="footer-links">
-          <h4>Часы работы</h4>
+        <div className="footer-hours">
+          <h4>Бранч</h4>
           <ul>
-            <li>Вт-Чт: 12:00 - 23:00</li>
-            <li>Пт-Сб: 12:00 - 02:00</li>
-            <li>Вс: 11:00 - 21:00</li>
-            <li>Пн: Выходной</li>
+            <li>Пн – Пт: 12:00 – 15:00</li>
+            <li>Сб – Вс: 11:00 – 16:00</li>
           </ul>
-        </div>
-        <div className="footer-bottom">
-          <span>2025 VINYL DINER</span>
-          <span>ВКУС КЛАССИКИ</span>
-          <span>IG / TW / TK</span>
+          <h4 style={{ marginTop: "20px" }}>Бар & Гриль</h4>
+          <ul>
+            <li>Пн – Чт: 15:00 – 00:00</li>
+            <li>Пт – Вс: 15:00 – 02:00</li>
+          </ul>
         </div>
       </footer>
     </>
